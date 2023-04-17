@@ -1,18 +1,17 @@
-.lead__polka {
-   width: 984px;
-   height: 615px; 
+.lead__shelf {
+   max-width: 984px;
+   height: 615px;
+   width: 100%; 
 }
 
 @media all and (max-width: 1280px) and (min-width: 1024px) {
-    .lead__polka  {
-        width: 928px;
+    .lead__shelf  {
         height: 580px;
     }
 }
 
 @media all and (max-width: 1024px){
-    .lead__polka  {
-        width: 100vw;
+    .lead__shelf  {
         height: 100%;
     }
 }

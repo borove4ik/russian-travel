@@ -2,3 +2,17 @@
     display: flex;
     flex-direction: column;
 }
+
+@media all and (max-width: 768px) {
+    .lead__image-container {
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .lead__image-container {
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+}
