@@ -5,13 +5,12 @@
     line-height: 100px;
     text-align: center;
     margin: 0;
-    width: 720px;
-    height: 200px;
+    max-width: 720px;
 }
 
 @media all and (max-width: 768px) and (min-width: 425px) {
     .lead__title {
-        width: 100%;
+        max-width: 288px;
         height: 100%;
         font-size: 40px;
         line-height: 44px;
@@ -20,8 +19,7 @@
 
 @media all and (max-width: 425px) {
     .lead__title {
-        width: 288px;
-        height: 88px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
     }
