@@ -1,4 +1,5 @@
 @import url(../vendor/fonts/Inter-Web/inter.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
