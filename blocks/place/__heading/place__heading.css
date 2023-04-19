@@ -1,0 +1,10 @@
+.place__heading {
+  padding-bottom: 48px;
+  align-items: flex-end;
+}
+
+@media (max-width: 425px) {
+  .place__heading {
+    padding-bottom: 32px;
+  }
+}

@@ -1,0 +1,10 @@
+.place__content {
+  align-items: flex-start;
+}
+
+@media (max-width: 425px) {
+  .place__content {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}

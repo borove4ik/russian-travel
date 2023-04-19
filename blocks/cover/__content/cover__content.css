@@ -1,12 +1,12 @@
 .cover__content {
-    max-width: 560px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 425px) {
-    .cover__content {
-        max-width: 288px;
-    }
+  .cover__content {
+    max-width: 288px;
+  }
 }
