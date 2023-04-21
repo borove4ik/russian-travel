@@ -5,3 +5,21 @@
   padding-top: 56px;
   padding-bottom: 92px;
 }
+
+@media all and (max-width: 1025px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}

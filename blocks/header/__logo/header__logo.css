@@ -5,7 +5,7 @@
 
 @media all and (max-width: 425px) {
   .header__logo {
-    width: 142;
+    width: 142px;
     height: 42px;
   }
 }

@@ -3,3 +3,15 @@
   margin: 0 auto;
   padding-bottom: 92px;
 }
+
+@media (max-width: 769px) {
+  .intro {
+    padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    padding-bottom: 64px;
+  }
+}

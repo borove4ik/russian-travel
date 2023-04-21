@@ -4,4 +4,12 @@
   line-height: 26px;
   margin: 0;
   padding-bottom: 33px;
+  max-width: 720px;
 }
+
+@media (min-width: 769px) {
+  .intro__text {
+    max-width: 690px;
+  }
+}
+

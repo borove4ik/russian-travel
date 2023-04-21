@@ -1,3 +1,14 @@
 .place__link {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
   color: #ffff;
+  transition: opacity 0.4s ease-in;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+.place__link:hover {
+  opacity: 0.7;
 }

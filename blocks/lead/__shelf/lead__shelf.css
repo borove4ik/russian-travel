@@ -11,8 +11,17 @@
   }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1025px) {
   .lead__shelf {
     height: 100%;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+
+@media (max-width: 769px) {
+  .lead__shelf  {
+    margin: 0;
   }
 }

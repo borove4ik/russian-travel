@@ -1,8 +1,13 @@
 .header {
-  height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
   padding-top: 28px;
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding-top: 16px;
+  }
 }

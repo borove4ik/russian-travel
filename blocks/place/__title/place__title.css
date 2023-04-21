@@ -3,6 +3,7 @@
   font-weight: 900;
   line-height: 76px;
   margin: 0;
+  padding-right: 10px;
 }
 
 @media (max-width: 768px) {
@@ -12,7 +13,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;

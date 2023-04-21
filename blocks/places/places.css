@@ -7,8 +7,18 @@
   padding-bottom: 92px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .places {
     gap: 73px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .places {
+    gap: 73px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

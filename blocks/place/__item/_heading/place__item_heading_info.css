@@ -1,0 +1,12 @@
+.place__item_heading_info {
+  padding-bottom: 41px;
+  align-items: flex-end;
+}
+
+@media (max-width: 425px) {
+  .place__item_heading_info {
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,9 @@
+.place__item_content_box {
+  align-items: flex-start;
+}
+
+@media (max-width: 655px) {
+  .place__item_content_box {
+    margin: 0;
+  }
+}
