@@ -1,4 +1,7 @@
 .place__title {
+  box-sizing: border-box;
+  grid-area: place__title;
+  width: 100%;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -10,12 +13,15 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    padding-right: 0;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 425px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

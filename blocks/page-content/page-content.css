@@ -1,7 +1,12 @@
 .page-content {
   display: flex;
   flex-direction: column;
-  max-width: 984px;
   margin: 0 auto;
-  border: 1px solid greenyellow;
+  max-width: 1184px;
+}
+
+@media (max-width: 1025px) {
+  .page-content {
+    padding: 0;
+  }
 }

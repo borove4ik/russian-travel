@@ -1,12 +1,12 @@
 .header__lang-links {
   display: flex;
-  gap: 18px;
   align-items: center;
+  gap: 18px;
   padding-top: 18px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .header__lang-links {
-    padding-top: 9px;
+    padding-top: 10px;
   }
 }

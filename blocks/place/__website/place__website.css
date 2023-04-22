@@ -1,0 +1,15 @@
+.place__website {
+  box-sizing: border-box;
+  grid-area: place__website;
+  width: 100%;
+  align-self: flex-end;
+  gap: 12px;
+}
+
+@media (max-width: 425px) {
+  .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+}

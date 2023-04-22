@@ -1,36 +1,28 @@
 .cover {
-  min-height: 740px;
-  max-width: 1184px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: url(../../images/cover-train.jpg) no-repeat center;
   background-size: cover;
-  display: flex;
-  margin-bottom: 92px;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  margin: 0 auto;
 }
 
-.cover .cover__title, 
-.cover .cover__subtitle {
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .cover {
-    min-height: 640px;
-    max-width: 100%;
+    width: calc(100% - 92px);
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .cover {
-    min-height: 480px;
-    margin-bottom: 88px;
-  }
-}
-
-@media (max-width: 425px) {
-  .cover {
-    min-height: 200px;
-    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
 }

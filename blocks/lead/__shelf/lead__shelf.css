@@ -1,27 +1,4 @@
 .lead__shelf {
-  max-width: 984px;
-  height: 615px;
-  width: 100%;
-}
-
-@media all and (max-width: 1280px) {
-  .lead__shelf {
-    height: 580px;
-    max-width: 100%;
-  }
-}
-
-@media all and (max-width: 1025px) {
-  .lead__shelf {
-    height: 100%;
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-}
-
-
-@media (max-width: 769px) {
-  .lead__shelf  {
-    margin: 0;
-  }
+  max-width: 100%;
+  object-fit: cover;
 }

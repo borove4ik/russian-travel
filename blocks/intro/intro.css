@@ -1,17 +1,33 @@
 .intro {
-  max-width: 984px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  padding-bottom: 92px;
+  padding-top: 92px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+}
+
+@media (max-width: 1025px) {
+  .intro {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
 }
 
 @media (max-width: 769px) {
   .intro {
-    padding-bottom: 88px;
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media (max-width: 425px) {
   .intro {
-    padding-bottom: 64px;
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
