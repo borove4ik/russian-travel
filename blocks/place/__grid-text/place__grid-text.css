@@ -1,9 +1,18 @@
 .place__grid-text {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
   grid-area: place__grid-text;
   font-size: 18px;
   font-weight: 400;
   line-height: 29.34px;
   margin: 0;
+}
+
+@media (max-width: 769px) {
+  .place__grid-text {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 767px) {

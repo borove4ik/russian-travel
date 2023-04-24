@@ -8,13 +8,28 @@
   column-gap: 40px;
 }
 
+@media (max-width: 1025px) {
+  .place {
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 769px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+  }
+}
+
 @media (max-width: 767px) {
   .place {
-    grid-template-columns: 320px;
+    grid-template-columns: minmax(320px, auto);
     grid-template-areas:
       "place__title"
       "place__website"
       "place__image"
       "place__grid-text";
+    row-gap: 32px;
   }
 }
